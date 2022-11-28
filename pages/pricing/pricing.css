@@ -1,0 +1,111 @@
+.pricing .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #20BEC1;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pricing .container .row{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+  }
+  
+  .pricing h4 {
+    font-size: 36px;
+    color: #20BEC1;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .pricing h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .pricing h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .pricing ul li {
+    padding-bottom: 16px;
+  }
+  
+  .pricing ul i {
+    color: #5fcf80;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .pricing .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .pricing .btn-buy {
+    background: #4E0C3A;
+    display: inline-block;
+    padding: 8px 35px;
+    border-radius: 50px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing .btn-buy:hover {
+    background: #951B8A;
+  }
+  
+  .pricing .featured h3 {
+    color: #fff;
+    background: #5fcf80;
+  }
+  
+  .pricing .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #5fcf80;
+    color: #fff;
+  }
+  
