@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Home</title>
+  <title>Sign Up</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -32,13 +32,13 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="../home/index.php" class="logo me-auto"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="../home/index.html" class="logo me-auto"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../home/index.php">Home</a></li>
+              <li><a href="../home/index.html">Home</a></li>
               <li><a href="#">Log out</a></li>
             </ul>
           </li>
@@ -61,22 +61,22 @@
               <li><a href="#">Drop Down 2</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Tutorial</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../events/events.html">Upcoming events</a></li>
-              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="../events/events.html">Upcoming Tutorials</a></li>
+              <li><a href="../events/previous-events.html">Previous Tutorials</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Pricing</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../pricing/pricing.html">See pricing</a></li>
+              <li><a href="../pricing/pricing.html">See Pricing</a></li>
               <li><a href="#">Drop Down 2</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../contact/contact.html">Send a message</a></li>
-              <li><a href="../contact/phonewhatsapp.html">Phone & WhatsApp</a></li>
+              <li><a href="../contact/contact.html">Send a Message</a></li>
+              <li><a href="../contact/meet-us.html">Meet Us</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="../services/our-services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
@@ -103,29 +103,27 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="../courses/courses.html" class="get-started-btn">Get Started</a>
+      <a href="../account/signup.php" class="get-started-btn">Get Started</a>
 
     </div>
   </header><!-- End Header -->
 
   <main>
+    <div id="signup-login" data-aos="fade-left">
+      <h2>Sign Up</h2>
+    </div>
     <div id="signup-login-form" data-aos="zoom-in">
-        <h2>Sign Up</h2>
         <form action="../../backend/register_a.php" method="post">
-          <!-- <p id="text">Full Name</p> -->
           <input type="text" name="full-name" id="name" placeholder="Full Name" required><br><br>
-          <!-- <p id="text">E-mail</p> -->
           <input type="email" name="email" id="email" placeholder="Email" required><br><br>
-          <!-- <p id="text">Password</p> -->
           <input type="password" name="password" id="password" placeholder="Password" required><br><br>
-          <!-- <p id="text">Confirm Password</p> -->
           <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required><br><br>
           <div id="profile-picture">
             <p id="text">Profile Picture</p>
             <input type="file" name="file" class="file" placeholder="image"><br><br>
           </div>
           
-          <button type="submit"><strong>Sign Up</strong></button>
+          <button type="submit"><strong>Sign Up</strong></button><br><br>
           <p style="text-align: center;">Already have an account? <a href="login.php" style="color: #20BEC1;">Log in</a></p>
         </form>
     </div>

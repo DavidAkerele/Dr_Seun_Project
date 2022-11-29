@@ -1,0 +1,123 @@
+.our-services .service {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #20BEC1;
+    border-radius: 8px;
+  }
+  
+  .our-services .service img {
+    margin: -1px -1px 30px -1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .our-services .service img:hover {
+    margin: -1px -1px 30px -1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .our-services .service .service-content {
+    padding: 0 20px 30px 20px;
+  }
+  
+  .our-services .service a h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #37423b;
+  }
+  
+  .our-services .service a h4:hover {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #951B8A;
+    transition: 0.3s;
+  }
+
+  .our-services .service span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .our-services .service p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+  }
+  
+  .our-services .service .social {
+    margin-top: 15px;
+  }
+  
+  .our-services .service .social a {
+    color: #4E0C3A;
+    transition: 0.3s;
+  }
+  
+  .our-services .service .social a:hover {
+    color: #951B8A;
+  }
+  
+  .our-services .service .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .service .contact-info p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #37423b;
+  }
+  
+  .service .contact-info i{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #37423b;
+  }
+
+  /* Respective Services */
+  section{
+    width: 100%;
+    height: 100%;
+  }
+
+  .page{
+    display: flex;
+    opacity: 0.85;
+    margin: 0 auto;
+    padding: 50px;
+    order: 1;
+    justify-content: space-evenly;
+    color: #37423b;
+    line-height: 2;
+    text-align: justify;
+  }
+  
+  p #ref{
+    color: #20BEC1;
+    font-weight: bold;
+  }
+
+  p #ref:hover{
+    color: #951B8A;
+    font-weight: bolder;
+    transition: ease-in 0.3s;
+  }
+
+   #ref li{
+    color: #20BEC1;
+    list-style: none;
+    font-weight: bold;
+  }
+
+  #ref li:hover{
+    color: #951B8A;
+    transition: ease-in 0.3s;
+    font-weight: bolder;
+  }

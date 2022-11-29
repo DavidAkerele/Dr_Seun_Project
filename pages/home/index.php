@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <header id="header" class="fixed-top">
+<header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <a href="../home/index.php" class="logo me-auto"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
@@ -60,22 +60,22 @@
               <li><a href="#">Drop Down 2</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Tutorial</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../events/events.html">Upcoming events</a></li>
-              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="../events/events.html">Upcoming Tutorials</a></li>
+              <li><a href="../events/previous-events.html">Previous Tutorials</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Pricing</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../pricing/pricing.html">See pricing</a></li>
+              <li><a href="../pricing/pricing.html">See Pricing</a></li>
               <li><a href="#">Drop Down 2</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="../contact/contact.html">Send a message</a></li>
-              <li><a href="../contact/phonewhatsapp.html">Phone & WhatsApp</a></li>
+              <li><a href="../contact/contact.html">Send a Message</a></li>
+              <li><a href="../contact/meet-us.html">Meet Us</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="../services/our-services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
@@ -102,7 +102,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="../courses/courses.html" class="get-started-btn">Get Started</a>
+      <a href="../account/signup.php" class="get-started-btn">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -123,7 +123,7 @@
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>WELCOME TO <span id = "hero-literate">LITERATE</span></h1>
       <h2>We offer you the best and most informative <br> courses in Information Technology.</h2>
-      <a href="../courses/courses.html" class="btn-get-started">Get Started</a>
+      <a href="../account/signup.php" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- End Hero -->
 
@@ -151,8 +151,8 @@
               <li><i class="bi bi-check-circle"></i> We are available 24/7.</li>
             </ul>
             <p>
-              You are guaranteed a smooth ride once you register with us. Go ahead and check out <b><a href="../courses/courses.html" style="color: #4E0C3A;">Our Courses</a></b> and 
-              <b><a href="../account/signup.html" style="color: #4E0C3A">Get Started</a></b>
+              You are guaranteed a smooth ride once you register with us. Go ahead and check out <b><a href="../courses/courses.html" id="myref" style= "color:#20BEC1;">Our Courses</a></b> and 
+              <b><a href="../account/signup.html" id="myref" style= "color:#20BEC1;">Get Started</a></b>
             </p>
 
           </div>
@@ -292,6 +292,7 @@
                 <span>HTML & CSS Development, UI UX Design</span>
                 <p>
                   Joseph worked on the front end design of Literate using HTML and CSS.
+                  He also worked the UI UX of the website.
                 </p>
                 <div class="contact-info">
                   <p>Email: <i>josephkorede36@gmail.com</i> </p>
@@ -308,7 +309,8 @@
                 <h4>Akerele David</h4>
                 <span>JavaScript & PHP, UI UX Design</span>
                 <p>
-                  Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                  David worked on the functionality of the website using JavaScript and also worked on the backend using PHP.
+                  He also designed the UI UX of the site.
                 </p>
                 <div class="contact-info">
                   <p>Email: <i>josephkorede36@gmail.com</i> </p>
@@ -415,8 +417,8 @@
                       Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
                     </p>
                     <div class="contact-info">
-                      <p>Email: <i>josephkorede36@gmail.com</i> </p>
-                      <p>Phone: <i>+234 8021351855</i> </p>
+                      <p>Email: <i>johnsendjekou5@gmail.com</i></p>
+                      <p>Phone: <i>+234 8101575120</i></p>
                     </div>
                   </div>
                 </div>
@@ -432,8 +434,8 @@
                       Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
                     </p>
                     <div class="contact-info">
-                      <p>Email: <i>josephkorede36@gmail.com</i> </p>
-                      <p>Phone: <i>+234 8021351855</i> </p>
+                      <p>Email: <i>elujobaolorunfemiayodeji@gmail.com</i> </p>
+                      <p>Phone: <i>+234 8136338498</i> </p>
                     </div>
                   </div>
                 </div>

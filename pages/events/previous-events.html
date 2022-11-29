@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Login</title>
+  <title>Tutorials - Previous Tutorials</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,11 +25,11 @@
   <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="../../assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="account.css">
-</head>
+  <link rel="stylesheet" href="events.css">
 
 <body>
-<header id="header" class="fixed-top">
+
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <a href="../home/index.html" class="logo me-auto"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
@@ -108,19 +108,52 @@
     </div>
   </header><!-- End Header -->
 
-  <main>
-    <div id="signup-login" data-aos="fade-left">
-      <h2>Login</h2>
-    </div>
-    <div id="login-form" data-aos="zoom-in">
-      <form action="../../backend/login_p.php" method="post">
-          <input type="email" name="email" id="email" placeholder="Email" required><br><br>
-          <input type="password" name="password" id="password" placeholder="Password" required><br><br>
-          <button type="submit"><strong>Login</strong></button><br><br>
-          <p style="text-align: center;">Don't have an account? <a href="signup.php" style="color: #20BEC1;">Sign Up</a></p>
-      </form>
-    </div>
-  </main>  <!--End main-->
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Previous Tutorials</h2>
+        <p>Here, you'll see tutorials that will be conducted in the nearer future </p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="../../assets/img/events-1.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Introduction to Computing</a></h5>
+                <p class="fst-italic text-center">Saturday, November 19th 2022</p>
+                <p class="card-text">You'll learn about computing basics. This event is majorly for people who do not have a clue about using computers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="../../assets/img/intro-to-web.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Web Design Fundamentals</a></h5>
+                <p class="fst-italic text-center">Saturday, September 17th 2022</p>
+                <p class="card-text">You will be taken through the fundamentals of Web Design. You'll learn the basics o HTML and CSS</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">

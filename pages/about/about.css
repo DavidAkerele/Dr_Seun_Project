@@ -33,7 +33,16 @@
     background: #3ac162;
     color: #fff;
   }
+
+  .row p b a{
+    color: #20BEC1;
+  }
   
+  .row p b a:hover{
+    color: #951B8A;
+    transition: ease-in 0.3s;
+  }
+
   @media (max-width: 768px) {
     .about .content .learn-more-btn {
       margin: 0 48px 0 0;
