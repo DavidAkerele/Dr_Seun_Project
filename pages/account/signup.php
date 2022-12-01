@@ -113,7 +113,7 @@
       <h2>Sign Up</h2>
     </div>
     <div id="signup-login-form" data-aos="zoom-in">
-        <form action="../../backend/register_a.php" method="post">
+        <form action="../../backend/register_a.php" method="post" novalidate>
           <input type="text" name="full-name" id="name" placeholder="Full Name" required><br><br>
           <input type="email" name="email" id="email" placeholder="Email" required><br><br>
           <input type="password" name="password" id="password" placeholder="Password" required><br><br>
@@ -143,7 +143,7 @@
               Ilishan-Remo, Ogun State<br>
               NIgeria <br><br>
               <strong>Phone:</strong> +234 9059033185<br>
-              <strong>Email:</strong> group9@gmail.com<br>
+              <strong>Email:</strong> literatehq@gmail.com<br>
             </p>
           </div>
 
