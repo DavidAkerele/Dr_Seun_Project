@@ -63,20 +63,34 @@
     color: #4E0C3A;
   }
   
-  /* COurse Details */
+  /* Course Details */
 
   .row p{
     text-align: justify;
     line-height: 2;
   }
 
-  #download{
+  #download a{
+    color: #4E0C3A;
+    margin-left: 2rem;
+    line-height: 2;
+    background-color: #20BEC1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #download a:hover{
+    color: #20BEC1;
+    transition: ease-in 0.3s;
+    background-color: #951B8A;
+  }
+  
+  .row a{
     color: #20BEC1;
     margin-left: 2rem;
     line-height: 2;
   }
-
-  #download:hover{
+  .row a:hover{
     color: #951B8A;
     transition: ease-in 0.3s;
   }
