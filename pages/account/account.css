@@ -115,3 +115,13 @@ main{
     align-items: center;
     font-size: 40px;
   }
+
+  #success{
+    background-color: #20BEC1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #4E0C3A;
+    opacity: 1;
+    z-index: 1000;
+  }

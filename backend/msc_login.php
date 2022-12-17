@@ -6,7 +6,7 @@
 if (!isset($_POST['email'], $_POST['password'])) exit('false');
 
 // require functions.php
-require_once 'msc_functions.php';
+require_once 'register_a.php';
 
 $U = new Utilities;
 
